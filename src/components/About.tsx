@@ -15,21 +15,43 @@ export default function About() {
             </div>
             <div
                 className="metrics"
-                style={{ display: "flex", justifyContent: "space-between" }}
+                style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "64px 0",
+                }}
             >
                 <div className="metric-card">
-                    <div className="metric-card-number">5</div>
-                    <div className="metric-card-label">Years of Experience</div>
+                    <div className="metric-card-number">
+                        {Math.ceil(new Date().getFullYear() - 2018)}
+                    </div>
+                    <div className="metric-card-label">
+                        Years of
+                        <br />
+                        Experience
+                    </div>
                 </div>
                 <div className="metric-card">
                     <div className="metric-card-number">14</div>
                     <div className="metric-card-label">
-                        Full Stack Applications
+                        Production
+                        <br />
+                        Applications
                     </div>
                 </div>
                 <div className="metric-card">
-                    <div className="metric-card-number">5</div>
-                    <div className="metric-card-label">Years of Experience</div>
+                    <div className="metric-card-number">
+                        {(
+                            ((new Date().getFullYear() - 2018) * 365.25) /
+                            1000
+                        ).toFixed(1)}
+                        k
+                    </div>
+                    <div className="metric-card-label">
+                        Cups of
+                        <br />
+                        Coffee
+                    </div>
                 </div>
             </div>
         </section>
