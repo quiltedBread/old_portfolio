@@ -15,7 +15,7 @@ body {
 .heading {
   font-size: 3rem;
 }
-.secondary {
+.colored {
   color: var(--primary);
 }
 
@@ -108,7 +108,7 @@ a:hover {
 #skills {
   color: white;
   background-color: var(--primary);
-  padding: 64px;
+  padding: 64px 64px 0 64px;
   background-image: url("../public/harp.svg");
   background-size: 50%;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@ a:hover {
   margin-right: 1.5rem;
 }
 #skills .skill img {
-  width: 100px;
+  width: 60px;
   padding-bottom: 0.5rem;
 }
 
@@ -162,27 +162,36 @@ a:hover {
 #projects .tags {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  max-width: 70%;
 }
 #projects .tag {
   padding: 0.25rem 0.5rem;
   background-color: var(--primary);
   color: var(--secondary);
   margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
   border-radius: 4px;
 }
 #projects .collaborators {
   margin-bottom: 0.5rem;
 }
 
+#projects .description a {
+  color: var(--primary);
+  font-weight: bold;
+}
+
 #projects .notes {
   font-style: italic;
   font-size: 0.9rem;
+  margin-bottom: 2rem;
 }
 
 #projects .links a {
   border: 2px solid var(--primary);
   padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
 }
 
 #projects .links > a {

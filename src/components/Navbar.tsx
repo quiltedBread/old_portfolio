@@ -11,7 +11,10 @@ export default function Navbar() {
         <a href="https://github.com/quiltedBread" title="GitHub">
           <i className="fa-brands fa-github"></i>
         </a>
-        <a href="https://www.youtube.com/" title="YouTube">
+        <a
+          href="https://www.youtube.com/channel/UC69RzN0Rqi6Eerhvdy6Y5wg"
+          title="YouTube"
+        >
           <i className="fa-brands fa-youtube"></i>
         </a>
         <a href="#" title="Resume">
