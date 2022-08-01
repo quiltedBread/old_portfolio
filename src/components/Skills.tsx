@@ -1,33 +1,69 @@
 export default function Skills() {
-    return (
-        <div id="skills">
-            {/* <h1>Top Skills</h1> */}
-            <div className="skill-cards">
-                <div className="skill-card">
-                    <img src="/HTML5.svg" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/CSS3.svg" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/js_logo.svg" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/Typescript_logo_2020.svg" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/django-logo-negative.png" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/Python-logo-notext.svg" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/GraphQL_Logo.svg" alt="" />
-                </div>
-                <div className="skill-card">
-                    <img src="/sql-database-generic.svg" alt="" />
-                </div>
-            </div>
+  return (
+    <div id="skills">
+      <div className="content">
+        <h1>Front End</h1>
+        <div className="skills">
+          <div className="skill">
+            <img src="/html5.png" alt="" />
+            HTML5
+          </div>
+          <div className="skill">
+            <img src="/css3.png" alt="" />
+            CSS3
+          </div>
+          <div className="skill">
+            <img src="/js_logo.svg" alt="" />
+            JavaScript
+          </div>
+          <div className="skill">
+            <img src="/typescript.svg" alt="" />
+            TypeScript
+          </div>
+          <div className="skill">
+            <img src="/React-icon.svg" alt="" />
+            React.js
+          </div>
         </div>
-    );
+        <h1>Back End</h1>
+        <div className="skills">
+          <div className="skill">
+            <img src="/python.svg" alt="" />
+            Python
+          </div>
+          <div className="skill">
+            <img src="/flask.png" alt="" />
+            Flask
+          </div>
+          <div className="skill">
+            <img src="/django.svg" alt="" />
+            Django
+          </div>
+          <div className="skill">
+            <img src="/nodejs.svg" alt="" />
+            Node.js
+          </div>
+          <div className="skill">
+            <img src="/database.svg" alt="" />
+            SQL
+          </div>
+        </div>
+        <h1>Tools</h1>
+        <div className="skills">
+          <div className="skill">
+            <img src="/azure.svg" alt="" />
+            Azure
+          </div>
+          <div className="skill">
+            <img src="/git.png" alt="" />
+            Git
+          </div>
+          <div className="skill">
+            <img src="/graphql.svg" alt="" />
+            GraphQL
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
